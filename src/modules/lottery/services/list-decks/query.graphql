@@ -1,0 +1,13 @@
+query decks($options: String!) {
+  listDecks(options: $options) {
+    data {
+      id
+      name
+      cards {
+        id
+        name
+        image
+      }
+    }
+  }
+}

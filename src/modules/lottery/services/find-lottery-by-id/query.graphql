@@ -1,0 +1,19 @@
+query findLotteryById($id: String!) {
+  findLotteryById(id: $id) {
+    id
+    boards {
+      id
+      cards {
+        id
+        name
+        image
+      }
+    }
+    cards {
+      id
+      name
+      image
+    }
+    numberOfBoards
+  }
+}

@@ -1,0 +1,5 @@
+mutation createDeck($input: CreateDeckRequestDto!, $images: [Upload!]!) {
+  createDeck(input: $input, images: $images) {
+    id
+  }
+}

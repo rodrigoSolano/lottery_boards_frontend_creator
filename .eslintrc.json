@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "react/jsx-props-no-spreading": "off"
+  },
+  "extends": ["airbnb", "next/core-web-vitals", "prettier"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": "./src"
+      }
+    }
+  }
+}

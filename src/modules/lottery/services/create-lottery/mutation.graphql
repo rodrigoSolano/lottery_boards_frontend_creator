@@ -1,0 +1,5 @@
+mutation createLottery($input: CreateLotteryRequestDto!) {
+  createLottery(input: $input) {
+    id
+  }
+}

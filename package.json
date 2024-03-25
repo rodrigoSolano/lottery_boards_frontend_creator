@@ -1,0 +1,38 @@
+{
+  "name": "lottery-board-generator",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.9",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/material-nextjs": "latest",
+    "apollo-upload-client": "^18.0.1",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
+    "next": "latest",
+    "notistack": "^3.0.1",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-responsive-carousel": "^3.2.23",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "5.4.3"
+  }
+}
